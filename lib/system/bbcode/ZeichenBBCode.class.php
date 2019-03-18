@@ -15,7 +15,7 @@ use wcf\util\StringUtil;
  */
 class ZeichenBBCode extends AbstractBBCode
 {
-    const HOST_NAME = 'http://localhost:8080';
+    const HOST_NAME = 'https://vzkat.tips';
 
     public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser): string
     {
